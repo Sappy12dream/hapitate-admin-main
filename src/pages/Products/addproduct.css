@@ -1,0 +1,35 @@
+
+.img-upload.full-width-img #image-preview label,
+.img-upload.full-width-img #image-preview input
+{top: 100%;transform: auto;left: 6%;margin-top: 50px;right: 0;margin-left: 0px;}
+
+.img-upload.full-width-img #image-preview1 {
+    width: 250%;
+}
+
+.input-group>.form-control, .input-group>.form-select, .input-group>.input-text, .input-group>input[type=email], .input-group>input[type=password], .input-group>input[type=search], .input-group>input[type=text]:not(.form-control):not(input[type=email]):not(input[type=url]):not(input[type=password]):not(input[type=search]):not(textarea):not(.input-text), .input-group>input[type=url], .input-group>select, .input-group>textarea, body .input-group>.dokan-form-control:not(input):not(textarea) {
+    position: relative;
+    flex: 1 1 auto;
+    width: 1%;
+    min-width: 0;
+}
+.form-control, .input-text, input[type=email], input[type=password], input[type=search], input[type=text]:not(.form-control):not(input[type=email]):not(input[type=url]):not(input[type=password]):not(input[type=search]):not(textarea):not(.input-text), input[type=url], textarea {
+    display: block;
+    width: 100%;
+    padding: 0.594rem 1rem;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.714;
+    color: #333e48;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ddd;
+    appearance: none;
+    /* border-radius: 1.375rem; */
+    box-shadow: 0;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n+3), .input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}

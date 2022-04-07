@@ -1,0 +1,59 @@
+/* *{
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+} */
+.nav .login{
+    background-color: rgb(55, 139, 44)!important;
+}
+.nav .active{
+    background-color: rgb(55, 139, 44)!important;
+}
+#nav-log-tab{
+    background-color: rgb(36, 204, 72) ;
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin: 0 0;
+}
+#nav-reg-tab{
+    background-color: rgb(36, 204, 72) ;
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin: 0 0;
+}
+
+input{
+    background-color: aliceblue !important;
+
+}
+.mr-breadcrumb{
+    padding-left: 3%;
+}
+li{
+    list-style: none;
+    /* display: inline; */
+    
+    padding: 0 10px;
+}
+.table-footer{
+    display: inline-block;
+}
+.add-btn{
+    background-color: rgb(1, 64, 128);
+    color: white;
+    border-radius: 25px;
+}
+
+.links a{
+    color: black !important;
+}
+.custom-select{
+    width: 27%;
+}
+#msg1{
+    color: rgb(56, 49, 49);
+    margin: 13px 0;
+    padding: 10px 5px;
+    background-color: rgb(156, 241, 156);
+}
